@@ -1,0 +1,10 @@
+__pycache__/
+.env
+env/
+venv/
+.ipynb_checkpoints/
+.python-version
+.DS_Store
+
+test.ipynb
+data/
