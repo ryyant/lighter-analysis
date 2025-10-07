@@ -1,6 +1,6 @@
-# Lighter Protocol Data Analysis
+# Lighter Data Analysis 🕯️
 
-A modular Python project designed for robust, modular interaction with the zkLighter API and direct EVM block data. The project enables retrieval, analysis, and visualization of cryptocurrency market data—including candlesticks, funding rates, open interest, and liquidity provider metrics—as well as on-chain analytics for protocol valuation, asset flow tracking, and comprehensive wallet/user segmentation.
+gLighter! As Lighter emerges as one of the notable platforms in the ongoing **“PerpDEX Summer”** within the crypto space, I aim to analyze trends in its key protocol metrics to better understand its performance and growth trajectory over time. Such analysis can offer deeper insights into Lighter’s potential valuation ahead of its TGE, and subsequently provide meaningful comparisons against other DEXs and CEXs offering similar perpetual trading features.
 
 ## Protocol Information
 
@@ -8,14 +8,16 @@ Lighter is a decentralized trading platform focused on delivering unmatched secu
 
 ## Overview
 
-This project provides key capabilities which includes:
+A Python project built for reliable and extensible interaction with both **zkLighter** and the **Alchemy** API. It supports end-to-end retrieval, analysis, and visualization of cryptocurrency market data - including candlesticks, volume, funding rates, open interest, and other key metrics - alongside on-chain EVM analytics for protocol valuation, asset flow tracking, and detailed wallet or user segmentation.
 
-- Retrieving account and market data from the zkLighter API
+Key findings includes:
+- Retrieving account and market data from zkLighter API
 - Analyzing candlestick data across multiple markets
 - Tracking and visualizing perpetuals trading volume
 - Tracking and visualizing funding rates
 - Monitoring current open interest
 - Evaluating Lighter Liquidity Provider (LLP) performance
+- Retrieving EVM node data from provider Alchemy API
 - Parsing EVM block data (transfers and logs) to analyze asset flows and total value locked (TVL)
 - Assessing deposit and withdrawal activity, profiling user wallet behavior, and segmenting wallets by size and activity
 
@@ -103,7 +105,7 @@ Both notebooks leverage robust data processing and visualization to deliver acti
 
 Set the following variables in your `.env` file to configure the project:
 
-- `MY_L1_ADDRESS` - (required) Your Ethereum L1 address.
+- `MY_L1_ADDRESS` - (optional) Your Ethereum L1 address.
 - `ALCHEMY_API_KEY` - (required) Your Alchemy API key for Ethereum node access.
 
 ## Dependencies
